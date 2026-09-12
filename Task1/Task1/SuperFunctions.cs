@@ -39,5 +39,18 @@ namespace Task1
             }
             return sum;
         }
+
+        public static int Revers(int number)
+        {
+
+            int reversed = 0;
+            while (number > 0)
+            {
+                int a = number % 10;
+                reversed = reversed * 10 + a;
+                number /= 10;
+            }
+            return reversed;
+        }
     }
 }

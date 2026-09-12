@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace Task1
 {
-    class Program
-    {    /// первое задание
+    class Program2
+    {   /// второе задание
         static void Main(string[] args)
         {
             int a = SuperFunctions.Input();
-            Console.WriteLine($"Сумма цифр числа {a} равна {SuperFunctions.Summ(a)}");
+            Console.WriteLine($"Число с цифрами в обратном порядке: {SuperFunctions.Revers(a)}");
         }
     }
 }
