@@ -29,13 +29,12 @@ namespace Task1
         public static int Summ(int number)
         {
             int sum = 0;
-            int temp = number;
 
-            while (temp > 0)
+            while (number > 0)
             {
-                int digit = temp % 10;
+                int digit = number % 10;
                 sum += digit;
-                temp /= 10;
+                number /= 10;
             }
             return sum;
         }
@@ -62,6 +61,18 @@ namespace Task1
                 count++;
             }
             return count;
+        }
+
+        public static int Increase(int number)
+        {
+            int result = 1;
+            while (number > 0)
+            {
+                int digit = number % 10;
+                result *= digit;
+                number /= 10;
+            }
+            return result;
         }
     }
 }
