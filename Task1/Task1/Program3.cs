@@ -8,5 +8,10 @@ namespace Task1
 {
     class Program3
     {
+        static void Main(string[] args)
+        {
+            int a = SuperFunctions.Input();
+            Console.WriteLine($"Количество цифр в числе {a} равно {SuperFunctions.Count(a)}");
+        }
     }
 }

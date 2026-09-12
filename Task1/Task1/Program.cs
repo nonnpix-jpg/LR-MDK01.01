@@ -9,10 +9,10 @@ namespace Task1
 {
     class Program
     {    /// первое задание
-        static void Main(string[] args)
-        {
-            int a = SuperFunctions.Input();
-            Console.WriteLine($"Сумма цифр числа {a} равна {SuperFunctions.Summ(a)}");
-        }
+        //static void Main(string[] args)
+        //{
+        //    int a = SuperFunctions.Input();
+        //    Console.WriteLine($"Сумма цифр числа {a} равна {SuperFunctions.Summ(a)}");
+        //}
     }
 }

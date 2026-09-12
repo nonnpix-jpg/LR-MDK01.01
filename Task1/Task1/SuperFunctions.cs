@@ -52,5 +52,16 @@ namespace Task1
             }
             return reversed;
         }
+
+        public static int Count(int number)
+        {
+            int count = 0;
+            for (int i = 0; number > 0; i++)
+            {
+                number /= 10;
+                count++;
+            }
+            return count;
+        }
     }
 }
