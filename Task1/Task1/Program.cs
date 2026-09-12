@@ -8,7 +8,7 @@ namespace Task1
 {
     class Program
     {
-        private static int Input()
+        public static int Input()
         {   
             
             Console.WriteLine("Введите натуральное число: ");
@@ -16,7 +16,7 @@ namespace Task1
             return result;
         }
 
-        private static int Summ(int number)
+        public static int Summ(int number)
         {
             int sum = 0;
             int temp = number;
@@ -32,7 +32,8 @@ namespace Task1
 
         static void Main(string[] args)
         {
-
+            int a = Input();
+            Console.WriteLine($"Сумма цифр числа {a} равна {Summ(a)}");
         }
     }
 }
